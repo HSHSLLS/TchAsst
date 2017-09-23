@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TchAsst</string>
+    <string name="search_hint">教职工号</string>
+</resources>

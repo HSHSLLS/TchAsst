@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:icon="@drawable/ic_bluetooth"
+    android:title="蓝牙"
+    app:showAsAction="always"
+    android:id="@+id/menu_bluetooth"/>
+    <item
+        android:id="@+id/roll_call"
+        android:title="一键点名"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/save_table"
+        android:title="保存点名表"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/update_mac"
+        android:title="MAC地址更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/stu_situation"
+        android:title="学生总况"
+        app:showAsAction="never"/>
+
+</menu>
